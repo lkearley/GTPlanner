@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CD9FECC66CFD5342945205D /* Pods_GT_Planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3246736BD8675CAA1BE78758 /* Pods_GT_Planner.framework */; };
+		A66119901F33B54D00AEC559 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A661198F1F33B54D00AEC559 /* Course.swift */; };
+		A66119921F33B71F00AEC559 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66119911F33B71F00AEC559 /* Assignment.swift */; };
+		A66119941F33BA1600AEC559 /* Semester.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66119931F33BA1600AEC559 /* Semester.swift */; };
+		A66119961F33F85500AEC559 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A66119951F33F85500AEC559 /* GoogleService-Info.plist */; };
 		A678D5FA1F33A544004AC545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678D5F91F33A544004AC545 /* AppDelegate.swift */; };
 		A678D5FC1F33A544004AC545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678D5FB1F33A544004AC545 /* ViewController.swift */; };
 		A678D5FF1F33A544004AC545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A678D5FD1F33A544004AC545 /* Main.storyboard */; };
 		A678D6011F33A544004AC545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A678D6001F33A544004AC545 /* Assets.xcassets */; };
 		A678D6041F33A544004AC545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A678D6021F33A544004AC545 /* LaunchScreen.storyboard */; };
 		A678D60F1F33A544004AC545 /* GT_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678D60E1F33A544004AC545 /* GT_PlannerTests.swift */; };
+		A678D61A1F33A974004AC545 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678D6191F33A974004AC545 /* LoginViewController.swift */; };
+		A6A6075C1F632E910027DE44 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A6075B1F632E910027DE44 /* User.swift */; };
+		E4090DFC156C7AC9A541993D /* Pods_GT_PlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6514AC8C378C7D1B6D2FE6D7 /* Pods_GT_PlannerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018C60902ECE1D08042607FA /* Pods-GT Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GT Planner.release.xcconfig"; path = "Pods/Target Support Files/Pods-GT Planner/Pods-GT Planner.release.xcconfig"; sourceTree = "<group>"; };
+		2AA845CE53CFC6D17F414F06 /* Pods-GT PlannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GT PlannerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GT PlannerTests/Pods-GT PlannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3246736BD8675CAA1BE78758 /* Pods_GT_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GT_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6514AC8C378C7D1B6D2FE6D7 /* Pods_GT_PlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GT_PlannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BD5E48E0A072D2DCC97DAC /* Pods-GT Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GT Planner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GT Planner/Pods-GT Planner.debug.xcconfig"; sourceTree = "<group>"; };
+		A661198F1F33B54D00AEC559 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		A66119911F33B71F00AEC559 /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		A66119931F33BA1600AEC559 /* Semester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Semester.swift; sourceTree = "<group>"; };
+		A66119951F33F85500AEC559 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A678D5F61F33A544004AC545 /* GT Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GT Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A678D5F91F33A544004AC545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A678D5FB1F33A544004AC545 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +53,9 @@
 		A678D60A1F33A544004AC545 /* GT PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GT PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A678D60E1F33A544004AC545 /* GT_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GT_PlannerTests.swift; sourceTree = "<group>"; };
 		A678D6101F33A544004AC545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A678D6191F33A974004AC545 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A6A6075B1F632E910027DE44 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BAF007DDD0C26F0DCBBB59FB /* Pods-GT PlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GT PlannerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GT PlannerTests/Pods-GT PlannerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD9FECC66CFD5342945205D /* Pods_GT_Planner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +71,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4090DFC156C7AC9A541993D /* Pods_GT_PlannerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1622319834C53384E73F9E7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68BD5E48E0A072D2DCC97DAC /* Pods-GT Planner.debug.xcconfig */,
+				018C60902ECE1D08042607FA /* Pods-GT Planner.release.xcconfig */,
+				2AA845CE53CFC6D17F414F06 /* Pods-GT PlannerTests.debug.xcconfig */,
+				BAF007DDD0C26F0DCBBB59FB /* Pods-GT PlannerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A678D5ED1F33A544004AC545 = {
 			isa = PBXGroup;
 			children = (
 				A678D5F81F33A544004AC545 /* GT Planner */,
 				A678D60D1F33A544004AC545 /* GT PlannerTests */,
 				A678D5F71F33A544004AC545 /* Products */,
+				1622319834C53384E73F9E7D /* Pods */,
+				FA3DEDAC7AD793714285873E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,8 +115,14 @@
 				A678D5F91F33A544004AC545 /* AppDelegate.swift */,
 				A678D5FB1F33A544004AC545 /* ViewController.swift */,
 				A678D5FD1F33A544004AC545 /* Main.storyboard */,
+				A661198F1F33B54D00AEC559 /* Course.swift */,
+				A66119931F33BA1600AEC559 /* Semester.swift */,
+				A66119911F33B71F00AEC559 /* Assignment.swift */,
+				A678D6191F33A974004AC545 /* LoginViewController.swift */,
+				A6A6075B1F632E910027DE44 /* User.swift */,
 				A678D6001F33A544004AC545 /* Assets.xcassets */,
 				A678D6021F33A544004AC545 /* LaunchScreen.storyboard */,
+				A66119951F33F85500AEC559 /* GoogleService-Info.plist */,
 				A678D6051F33A544004AC545 /* Info.plist */,
 			);
 			path = "GT Planner";
@@ -96,6 +137,15 @@
 			path = "GT PlannerTests";
 			sourceTree = "<group>";
 		};
+		FA3DEDAC7AD793714285873E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3246736BD8675CAA1BE78758 /* Pods_GT_Planner.framework */,
+				6514AC8C378C7D1B6D2FE6D7 /* Pods_GT_PlannerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A678D6131F33A544004AC545 /* Build configuration list for PBXNativeTarget "GT Planner" */;
 			buildPhases = (
+				3CB1D2238E57FC56F262CED0 /* [CP] Check Pods Manifest.lock */,
 				A678D5F21F33A544004AC545 /* Sources */,
 				A678D5F31F33A544004AC545 /* Frameworks */,
 				A678D5F41F33A544004AC545 /* Resources */,
+				B8E3B7639DBBE60E5AB5D492 /* [CP] Embed Pods Frameworks */,
+				2E5E1DEE7913AAA3442A047E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A678D6161F33A544004AC545 /* Build configuration list for PBXNativeTarget "GT PlannerTests" */;
 			buildPhases = (
+				85349F1131BB4897265630CB /* [CP] Check Pods Manifest.lock */,
 				A678D6061F33A544004AC545 /* Sources */,
 				A678D6071F33A544004AC545 /* Frameworks */,
 				A678D6081F33A544004AC545 /* Resources */,
+				6506A16EDF71B33770F0F207 /* [CP] Embed Pods Frameworks */,
+				218E5DD91019775C17EAF292 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A678D6041F33A544004AC545 /* LaunchScreen.storyboard in Resources */,
+				A66119961F33F85500AEC559 /* GoogleService-Info.plist in Resources */,
 				A678D6011F33A544004AC545 /* Assets.xcassets in Resources */,
 				A678D5FF1F33A544004AC545 /* Main.storyboard in Resources */,
 			);
@@ -196,13 +253,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		218E5DD91019775C17EAF292 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GT PlannerTests/Pods-GT PlannerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E5E1DEE7913AAA3442A047E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GT Planner/Pods-GT Planner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CB1D2238E57FC56F262CED0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6506A16EDF71B33770F0F207 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GT PlannerTests/Pods-GT PlannerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85349F1131BB4897265630CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8E3B7639DBBE60E5AB5D492 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GT Planner/Pods-GT Planner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A678D5F21F33A544004AC545 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66119901F33B54D00AEC559 /* Course.swift in Sources */,
+				A66119941F33BA1600AEC559 /* Semester.swift in Sources */,
+				A678D61A1F33A974004AC545 /* LoginViewController.swift in Sources */,
 				A678D5FC1F33A544004AC545 /* ViewController.swift in Sources */,
+				A66119921F33B71F00AEC559 /* Assignment.swift in Sources */,
 				A678D5FA1F33A544004AC545 /* AppDelegate.swift in Sources */,
+				A6A6075C1F632E910027DE44 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +496,7 @@
 		};
 		A678D6141F33A544004AC545 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BD5E48E0A072D2DCC97DAC /* Pods-GT Planner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 59R2MUHDY5;
@@ -354,6 +510,7 @@
 		};
 		A678D6151F33A544004AC545 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018C60902ECE1D08042607FA /* Pods-GT Planner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 59R2MUHDY5;
@@ -367,6 +524,7 @@
 		};
 		A678D6171F33A544004AC545 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA845CE53CFC6D17F414F06 /* Pods-GT PlannerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,6 +540,7 @@
 		};
 		A678D6181F33A544004AC545 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF007DDD0C26F0DCBBB59FB /* Pods-GT PlannerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,6 +573,7 @@
 				A678D6151F33A544004AC545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A678D6161F33A544004AC545 /* Build configuration list for PBXNativeTarget "GT PlannerTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +582,7 @@
 				A678D6181F33A544004AC545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
