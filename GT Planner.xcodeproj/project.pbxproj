@@ -20,6 +20,8 @@
 		A678D60F1F33A544004AC545 /* GT_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678D60E1F33A544004AC545 /* GT_PlannerTests.swift */; };
 		A678D61A1F33A974004AC545 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678D6191F33A974004AC545 /* LoginViewController.swift */; };
 		A6A6075C1F632E910027DE44 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A6075B1F632E910027DE44 /* User.swift */; };
+		A6A6075E1F6341010027DE44 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A6075D1F6341010027DE44 /* File.swift */; };
+		A6A607601F6341E40027DE44 /* AddAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A6075F1F6341E40027DE44 /* AddAssignmentViewController.swift */; };
 		E4090DFC156C7AC9A541993D /* Pods_GT_PlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6514AC8C378C7D1B6D2FE6D7 /* Pods_GT_PlannerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,8 @@
 		A678D6101F33A544004AC545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A678D6191F33A974004AC545 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A6A6075B1F632E910027DE44 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A6A6075D1F6341010027DE44 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A6A6075F1F6341E40027DE44 /* AddAssignmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAssignmentViewController.swift; sourceTree = "<group>"; };
 		BAF007DDD0C26F0DCBBB59FB /* Pods-GT PlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GT PlannerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GT PlannerTests/Pods-GT PlannerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,8 +119,10 @@
 				A678D5F91F33A544004AC545 /* AppDelegate.swift */,
 				A678D5FB1F33A544004AC545 /* ViewController.swift */,
 				A678D5FD1F33A544004AC545 /* Main.storyboard */,
+				A6A6075F1F6341E40027DE44 /* AddAssignmentViewController.swift */,
 				A661198F1F33B54D00AEC559 /* Course.swift */,
 				A66119931F33BA1600AEC559 /* Semester.swift */,
+				A6A6075D1F6341010027DE44 /* File.swift */,
 				A66119911F33B71F00AEC559 /* Assignment.swift */,
 				A678D6191F33A974004AC545 /* LoginViewController.swift */,
 				A6A6075B1F632E910027DE44 /* User.swift */,
@@ -356,7 +362,9 @@
 				A678D61A1F33A974004AC545 /* LoginViewController.swift in Sources */,
 				A678D5FC1F33A544004AC545 /* ViewController.swift in Sources */,
 				A66119921F33B71F00AEC559 /* Assignment.swift in Sources */,
+				A6A6075E1F6341010027DE44 /* File.swift in Sources */,
 				A678D5FA1F33A544004AC545 /* AppDelegate.swift in Sources */,
+				A6A607601F6341E40027DE44 /* AddAssignmentViewController.swift in Sources */,
 				A6A6075C1F632E910027DE44 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

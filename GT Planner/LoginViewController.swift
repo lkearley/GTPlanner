@@ -21,6 +21,8 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
         
         // Do any additional setup after loading the view.
     }
@@ -47,7 +49,7 @@ class LoginViewController: UIViewController {
         
     }
 
-    //Mark: Functions
+    //MARK: Functions
     @IBAction func loginFacebook(_ sender: UIButton) {
         let fbLoginManager = FBSDKLoginManager()
         fbLoginManager.logIn(withReadPermissions: ["public_profile", "email"], from: self) { (result, error) in
@@ -106,6 +108,7 @@ class LoginViewController: UIViewController {
         self.present(alertController, animated: true, completion: nil)
     }
     
+    //MARK: Functions
     func errorAlert(title: String, message: String) {
         let alertController = UIAlertController(title: title, message: message,
                                                 preferredStyle: .alert)
@@ -114,7 +117,10 @@ class LoginViewController: UIViewController {
         self.present(alertController, animated: true, completion: nil)
     }
     
-
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
+    
     /*
     // MARK: - Navigation
 
