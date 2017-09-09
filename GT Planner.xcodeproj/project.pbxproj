@@ -25,6 +25,8 @@
 		A6A607621F634C040027DE44 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A607611F634C040027DE44 /* DatabaseManager.swift */; };
 		A6A607641F646BD60027DE44 /* AddClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A607631F646BD50027DE44 /* AddClassViewController.swift */; };
 		A6A607661F6473E50027DE44 /* AddSemesterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A607651F6473E50027DE44 /* AddSemesterViewController.swift */; };
+		A6A6076A1F6478880027DE44 /* SemesterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A607691F6478880027DE44 /* SemesterTableViewController.swift */; };
+		A6A6076C1F6495D80027DE44 /* SemesterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A6076B1F6495D80027DE44 /* SemesterViewController.swift */; };
 		E4090DFC156C7AC9A541993D /* Pods_GT_PlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6514AC8C378C7D1B6D2FE6D7 /* Pods_GT_PlannerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,8 @@
 		A6A607611F634C040027DE44 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		A6A607631F646BD50027DE44 /* AddClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddClassViewController.swift; sourceTree = "<group>"; };
 		A6A607651F6473E50027DE44 /* AddSemesterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSemesterViewController.swift; sourceTree = "<group>"; };
+		A6A607691F6478880027DE44 /* SemesterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemesterTableViewController.swift; sourceTree = "<group>"; };
+		A6A6076B1F6495D80027DE44 /* SemesterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemesterViewController.swift; sourceTree = "<group>"; };
 		BAF007DDD0C26F0DCBBB59FB /* Pods-GT PlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GT PlannerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GT PlannerTests/Pods-GT PlannerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,9 +126,11 @@
 		A678D5F81F33A544004AC545 /* GT Planner */ = {
 			isa = PBXGroup;
 			children = (
+				A6A607691F6478880027DE44 /* SemesterTableViewController.swift */,
 				A678D5F91F33A544004AC545 /* AppDelegate.swift */,
 				A678D5FB1F33A544004AC545 /* ViewController.swift */,
 				A678D5FD1F33A544004AC545 /* Main.storyboard */,
+				A6A6076B1F6495D80027DE44 /* SemesterViewController.swift */,
 				A6A607651F6473E50027DE44 /* AddSemesterViewController.swift */,
 				A6A607631F646BD50027DE44 /* AddClassViewController.swift */,
 				A6A6075F1F6341E40027DE44 /* AddAssignmentViewController.swift */,
@@ -378,6 +384,8 @@
 				A6A607601F6341E40027DE44 /* AddAssignmentViewController.swift in Sources */,
 				A6A607661F6473E50027DE44 /* AddSemesterViewController.swift in Sources */,
 				A6A6075C1F632E910027DE44 /* User.swift in Sources */,
+				A6A6076C1F6495D80027DE44 /* SemesterViewController.swift in Sources */,
+				A6A6076A1F6478880027DE44 /* SemesterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
