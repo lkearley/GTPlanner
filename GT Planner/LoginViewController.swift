@@ -43,6 +43,7 @@ class LoginViewController: UIViewController {
                 self.errorAlert(title: "Login Failed", message: error.localizedDescription)
                 return
             }
+            self.setUID()
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "Tab")
             self.present(vc!, animated: true, completion: nil)
         }
@@ -69,8 +70,7 @@ class LoginViewController: UIViewController {
                     self.errorAlert(title: "Facebook Login Failed", message: error.localizedDescription)
                     return
                 }
-            
-                
+                self.setUID()
                 if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "Tab") {
                     UIApplication.shared.keyWindow?.rootViewController = viewController
                     self.dismiss(animated: true, completion: nil)
@@ -119,6 +119,15 @@ class LoginViewController: UIViewController {
     
     func dismissKeyboard() {
         view.endEditing(true)
+    }
+    
+    func setUID() {
+        let user = Auth.auth().currentUser
+        if let user = user {
+            Model.sharedModel.currentUserID = user.uid
+            Model.sharedModel.currentUser = User(name: user.displayName!, semesters: [Semester](), courses: [Course](), assignments:
+                [Assignment]())!
+        }
     }
     
     /*

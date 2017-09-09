@@ -30,7 +30,10 @@ class AddAssignmentViewController: UIViewController {
     
     //MARK: Actions
     @IBAction func addButtonPressed(_ sender: UIButton) {
-        
+//        if (nameTextField.text?.isEmpty) {
+//            <#code#>
+//        }
+//        Model.sharedModel.currentUser.assignments.append(Assignment(name: nameTextField.text, description: descriptionTestField.text, dueDate: dueDatePicker.date, course: <#T##Course#>, weight: <#T##Float#>))
     }
 
     /*
