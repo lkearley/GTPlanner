@@ -16,8 +16,9 @@ class Course {
     var semester: Semester
     var assignments: [Assignment]
     var weights: [Float]
+    var weightNames: [String]
     
-    init?(courseName: String, gradeWeightsFlag: Bool, creditHours: Float, semester: Semester) {
+    init?(courseName: String, gradeWeightsFlag: Bool, creditHours: Float, semester: Semester, weights: [Float], weightNames: [String]) {
         guard courseName.isEmpty else {
             return nil
         }
@@ -27,7 +28,8 @@ class Course {
         self.creditHours = creditHours
         self.semester = semester
         self.assignments = [Assignment]()
-        self.weights = [Float]()
+        self.weights = weights
+        self.weightNames = weightNames
     }
     
     func getQualityPoints() -> Float {

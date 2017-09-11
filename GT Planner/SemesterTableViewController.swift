@@ -38,7 +38,6 @@ class SemesterTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(String(describing: Model.sharedModel.currentUser?.semesters.count))
         return (Model.sharedModel.currentUser?.semesters.count)!
     }
     
@@ -52,9 +51,19 @@ class SemesterTableViewController: UITableViewController {
         return cell
     }
     
-//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        <#code#>
-//    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: "showSemesterPage", sender: indexPath.row)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard segue.identifier == "showSemesterPage" else {
+            return
+        }
+        let dest = segue.destination as! SemesterViewController
+        let row = sender as! Int
+        let semester = Model.sharedModel.currentUser!.semesters[row]
+        dest.semester = semester
+    }
     
     //MARK: Funcitons
     func dateFormat(date: Date) -> String {
